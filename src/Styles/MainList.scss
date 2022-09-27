@@ -1,0 +1,83 @@
+.MainList {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  padding: 16px;
+  gap: 18px;
+}
+
+.MainList_HeaderList {
+  line-height: 32px;
+  font-family: 'Gilroy', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  color: #1B1D28;
+}
+
+.MainList_ProductList {
+  display: flex;
+  flex-direction: column;
+  .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    gap: 8px;
+    .img {
+
+    }
+    .description {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      .title {
+      }
+      .vector {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+.MainList_SalesCard {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  background: #494A53;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  .SalesCard_Header {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 6px;
+   color: #99E4EE;
+  }
+  .SalesCard_Description {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    color: #F4F7FA;
+    margin-bottom: 8px;
+  }
+  .SalesCard_Navigation {
+    a {
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+      color: #CDD5E1;
+      font-family: 'Avenir', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 13px;
+      gap: 7px;
+    }
+  }
+}

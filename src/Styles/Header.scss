@@ -1,0 +1,17 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.TopHeader {
+   height: 96px;
+  background-color: aqua;
+}
+
+.BottomHeader {
+   height: 58px;
+  background-color: yellow;
+}
