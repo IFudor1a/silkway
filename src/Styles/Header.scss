@@ -7,11 +7,83 @@
 }
 
 .TopHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  gap: 27px;
    height: 96px;
-  background-color: aqua;
+  background: #FFFFFF;
+
+  .Search {
+    display: flex;
+    width: 677px;
+    .Search_dropdown {
+      display: flex;
+      width: 177px;
+      border: 1px solid #66D7E5;
+      gap: 16px;
+      padding: 14px 16px;
+      position: relative;
+      left: 25px;
+      border-right: none;
+      border-radius: 12px 0 0 12px;
+    }
+    .Search_Input {
+      width: 100%;
+      display: flex;
+      padding: 0 18px;
+      gap: 18px;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #66D7E5;
+      border-radius: 12px;
+      .Input_Holder {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 18px;
+        input {
+          border: none;
+          outline: none;
+          width: 100%;
+          font-family: 'Avenir', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 20px;
+          color: #A4A5A9;
+          :focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  .Futures {
+    display: flex;
+    gap: 22px;
+    .Futures_Item {
+      display: flex;
+      gap: 11px;
+      font-family: 'Avenir', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 24px;
+      color: #1B1D28;
+      a {
+        text-decoration: none;
+        color: #1B1D28;
+      }
+    }
+  }
+
+
 }
 
 .BottomHeader {
    height: 58px;
-  background-color: yellow;
+  background: #FFFFFF;
 }
