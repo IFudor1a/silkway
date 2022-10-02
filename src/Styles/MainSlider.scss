@@ -18,18 +18,18 @@
         white-space: nowrap;
         transition: ease .1s;
       .slide {
-        display: inline-block;
+        position: relative;
         overflow: hidden;
+        display: inline-block;
         width: 100%;
-        height: 502px;
+        height: 500px;
         border-radius: 5px;
         img {
         height: 100%;
           width: 100%;
           object-fit: cover;
-          white-space: nowrap;
           object-position: center;
-          image-rendering: auto;
+          image-rendering: high-quality;
         }
       }
     }

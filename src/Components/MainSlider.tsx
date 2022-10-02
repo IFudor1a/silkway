@@ -1,8 +1,11 @@
 import React, {useEffect, useRef, useState} from 'react';
 import '../Styles/MainSlider.scss';
+// @ts-ignore
+import SliderImg from '../Materials/Images/News card.png';
 import {fchmod} from "fs";
 
 const pictures = [
+    SliderImg,
     "https://s12.stc.all.kpcdn.net/family/wp-content/uploads/2022/01/repchatiy_luk_polza_i_vred_oblogka-960x540.jpg",
     "https://baron.kz/image/cache/catalog/catalog/milk_egg/foodmaster/fm_moloko3-1200x800.jpg",
     "https://baron.kz/image/cache/catalog/catalog/milk_egg/yajca-fermerskie-1200x800.jpg",
