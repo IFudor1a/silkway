@@ -1,0 +1,123 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 36px 135px;
+  background: #1B1D28;
+  margin-top: 27px;
+  gap: 40px;
+}
+
+.Footer_Container {
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+
+  .Feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+    .Header {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 120%;
+      display: flex;
+      color: #FFFFFF;
+      opacity: 0.5;
+      width: 100%;
+      margin-bottom: 32px;
+
+    }
+
+    .Header_Logo {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 120%;
+      display: flex;
+      align-items: center;
+      justify-items: start;
+      color: #FFFFFF;
+      width: 100%;
+      margin-bottom: 32px;
+    }
+
+    .Features {
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+
+      display: flex;
+      flex-direction: column;
+      color: #FFFFFF;
+      gap: 24px;
+
+
+      .Links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        text-decoration-line: underline;
+        color: #FFFFFF;
+
+      }
+
+      .Social_Icons {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 8px;
+      }
+
+      .Copyright {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.Bottom_Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  gap: 6px;
+  color: #7E808A;
+
+
+  span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    color: #7E808A;
+  }
+}

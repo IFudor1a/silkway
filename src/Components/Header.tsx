@@ -18,8 +18,8 @@ const TopHeader = () => {
 
                 <div className='Search_Input'>
                     <div className='Input_Holder'>
-                    {SearchIconSVG}
-                    <input placeholder='Что вы ищите'/>
+                        {SearchIconSVG}
+                        <input placeholder='Что вы ищите'/>
                     </div>
                     {CameraIconSVG}
                 </div>
@@ -46,7 +46,40 @@ const TopHeader = () => {
 const BottomHeader = () => {
     return (
         <div className='BottomHeader'>
-
+            <div className='Dropdown_group'>
+                <div className="dropdown">
+                    <span>Категории <span>{BottomArrowSVG}</span></span>
+                    <div className="dropdown_content">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+                <div className="dropdown">
+                    <span>Помошь <span>{BottomArrowSVG}</span></span>
+                    <div className="dropdown_content">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+                <div className="dropdown">
+                    <span>Продать на SilkWay <span>{BottomArrowSVG}</span></span>
+                    <div className="dropdown_content">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+            </div>
+            <div className='Dropdown_group'>
+                <div className="dropdown">
+                    <span>Готово к отправке</span>
+                    <div className="dropdown_content">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+                <div className="dropdown">
+                    <span>Доставка до: <span>{BottomArrowSVG}</span></span>
+                    <div className="dropdown_content">
+                        <p>Hello World!</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
