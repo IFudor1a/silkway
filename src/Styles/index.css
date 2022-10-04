@@ -5,10 +5,15 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #E5E5E5;
+    background: #E5E5E5;
 }
 
 .Main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 96px;
+}
+.Product {
     display: flex;
     flex-direction: column;
     margin: 0 96px;

@@ -82,3 +82,26 @@ export const InstagramIcon = <svg width="40" height="41" viewBox="0 0 40 41" fil
         </linearGradient>
     </defs>
 </svg>
+
+
+export const ProductArrow = <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clipPath="url(#clip0_3128_426)">
+        <path d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z" fill="#1B1D28"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_3128_426">
+            <rect width="16" height="16" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
+
+export const ProductStarIcon = <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clipPath="url(#clip0_2258_2122)">
+        <path d="M11.9999 18.26L4.94691 22.208L6.52191 14.28L0.586914 8.792L8.61391 7.84L11.9999 0.5L15.3859 7.84L23.4129 8.792L17.4779 14.28L19.0529 22.208L11.9999 18.26Z" fill="#33C9DD"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_2258_2122">
+            <rect width="24" height="24" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
