@@ -1,4 +1,49 @@
 .ProductSlider {
   display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 36px;
   width: 40%;
+  .Slider {
+    white-space: nowrap;
+    transition: ease .1s;
+    width: 100%;
+    height: 507px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    overflow: hidden;
+    .slide {
+       position: relative;
+       overflow: hidden;
+       display: inline-block;
+       width: 100%;
+       height: 100%;
+       img {
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+         object-position: center;
+         image-rendering: high-quality;
+       }
+
+    }
+  }
+
+  .Cards {
+    display: flex;
+    gap: 24px;
+    .Card {
+      height: 82px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      border-radius: 5px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        image-rendering: high-quality;
+      }
+    }
+  }
 }

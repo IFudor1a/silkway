@@ -1,0 +1,12 @@
+.ProfileContainer {
+  display: flex;
+  gap: 24px;
+  margin: 0 336px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1600px){
+  .ProfileContainer {
+    margin: 0 96px;
+  }
+}

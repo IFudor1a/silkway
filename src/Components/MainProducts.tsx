@@ -4,7 +4,7 @@ import '../Styles/MainProducts.scss'
 import ImageDef from '../Materials/Images/unsplash_07BEYT2hjGw.png';
 
 import {Product_BasketIcon, StarIcon} from "../Materials/SVG";
-const Products = [
+export const Products = [
     {img: ImageDef, title: 'Sell Well is suitable for 2018 BMW 5 Series G30 G38 car high quality universal rear bumper diffuser',
     price: '65₸ - 80₸', requirement: '1 Штука (Минимальный. Заказ)', rating: '4.7'},
     {img: ImageDef, title: 'Sell Well is suitable for 2018 BMW 5 Series G30 G38 car high quality universal rear bumper diffuser',

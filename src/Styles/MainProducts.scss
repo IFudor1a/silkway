@@ -1,7 +1,6 @@
 .MainProducts {
   display: flex;
   flex-direction: column;
-  margin-top: 36px;
   gap: 24px;
 }
 
@@ -15,14 +14,18 @@
 }
 
 .MainProducts_Container {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap:24px;
+    gap: 24px;
+
   .Product {
+    display: flex;
     flex: 0 1 23%;
+    height: 352px;
+    margin: 0;
     background: #FFFFFF;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
     border-radius: 5px;
 
     .Product_ImgHolder {
