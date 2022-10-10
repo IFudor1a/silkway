@@ -31,7 +31,7 @@ export const Products = [
         price: '65₸ - 80₸', requirement: '1 Штука (Минимальный. Заказ)', rating: '4.7'}
 ]
 
-interface IFproduct {
+export interface IFproduct {
     key: number,
     product: {
         img: any;

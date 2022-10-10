@@ -9,6 +9,7 @@ export const BASKET_ROUTE = '/basket';
 export const PRODUCT_ROUTE = '/product';
 export const PROFILE_ROUTE = '/profile';
 export const STATISTIC_ROUTE = '/statistic';
+export const UPLOAD_ITEM = '/profile/upload';
 
 export const authRoutes = [
     {
@@ -22,6 +23,10 @@ export const authRoutes = [
     {
         path: STATISTIC_ROUTE,
         element: Statistic
+    },
+    {
+        path: UPLOAD_ITEM,
+        element: Profile
     }
 ];
 
